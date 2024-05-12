@@ -106,3 +106,7 @@ compatibility_flags = ["nodejs_compat"]
 # [[vectorize]]
 # binding = "MY_INDEX"
 # index_name = "my-index"
+
+kv_namespaces = [
+  { binding = "HONO_TODO", preview_id = "", id = ""}
+]
